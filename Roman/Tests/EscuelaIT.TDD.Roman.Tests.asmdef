@@ -1,11 +1,11 @@
 {
-    "name": "EscuelaIT.TDD.Currency.Tests",
+    "name": "EscuelaIT.TDD.Roman.Tests",
     "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
         "BoundfoxStudios.FluentAssertions",
-        "EscuelaIT.TDD.Currency"
+        "EscuelaIT.TDD.Roman"
     ],
     "includePlatforms": [
         "Editor"
