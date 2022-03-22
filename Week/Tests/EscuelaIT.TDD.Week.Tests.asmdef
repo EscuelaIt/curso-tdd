@@ -5,7 +5,7 @@
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
         "BoundfoxStudios.FluentAssertions",
-        "EscuelaIT.TDD.Currency"
+        "EscuelaIT.TDD.Week"
     ],
     "includePlatforms": [
         "Editor"
