@@ -5,7 +5,7 @@ namespace EscuelaIT.TDD.Currency.Runtime
         readonly int amount = 0;
         readonly string currency;
 
-        protected Money(int amount, string currency)
+        Money(int amount, string currency)
         {
             this.amount = amount;
             this.currency = currency;
