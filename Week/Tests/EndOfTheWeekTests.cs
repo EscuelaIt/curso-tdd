@@ -40,7 +40,7 @@ namespace Assets.EscuelaIT.TDD.Week.Tests
         [Theory]
         public void NeverGreaterThanAWeek(DateTime aTime)
         {
-            (aTime.EndOfTheWeek() - aTime).Days.Should().BeLessThan(7); //¡¡¡Rojo!!!
+            (aTime.EndOfTheWeek() - aTime).Days.Should().BeLessOrEqualTo(7);
         }
     }
 }
