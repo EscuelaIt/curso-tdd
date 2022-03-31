@@ -1,5 +1,5 @@
 {
-    "name": "EscuelaIT.TDD.Week",
+    "name": "EscuelaIT.TDD.Learning",
     "rootNamespace": "",
     "references": [],
     "includePlatforms": [],
@@ -10,5 +10,5 @@
     "autoReferenced": true,
     "defineConstraints": [],
     "versionDefines": [],
-    "noEngineReferences": false
+    "noEngineReferences": true
 }
