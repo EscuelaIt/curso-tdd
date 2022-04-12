@@ -16,7 +16,7 @@ namespace Assets.EscuelaIT.TDD.Week.Tests
         };
         
         [Theory]
-        public void From1To100(IExpGroup sut)
+        public void LvlZero(IExpGroup sut)
         {
             sut.ExpOf(1).Should().Be(0);
         }

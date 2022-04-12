@@ -7,7 +7,7 @@ namespace EscuelaIT.TDD.Week.Runtime
         int Next(int minInc, int maxExc);
     }
 
-    class SystemRandomAdapter : IRandomGenerator
+    public class SystemRandomAdapter : IRandomGenerator
     {
         readonly Random adaptee = new Random();
         
@@ -17,7 +17,7 @@ namespace EscuelaIT.TDD.Week.Runtime
         }
     }
 
-    class UnityRandomAdapter : IRandomGenerator
+    public class UnityRandomAdapter : IRandomGenerator
     {
         public int Next(int minInc, int maxExc)
         {

@@ -7,7 +7,7 @@ namespace EscuelaIT.TDD.Week.Runtime
         int ExpOf(int lvl);
     }
 
-    class FastExpGroup : IExpGroup
+    public class FastExpGroup : IExpGroup
     {
         public int ExpOf(int lvl)
         {
@@ -15,7 +15,7 @@ namespace EscuelaIT.TDD.Week.Runtime
         }
     }
     
-    class SlowExpGroup : IExpGroup
+    public class SlowExpGroup : IExpGroup
     {
         public int ExpOf(int lvl)
         {
@@ -26,7 +26,7 @@ namespace EscuelaIT.TDD.Week.Runtime
         }
     }
     
-    class MediumFastExpGroup : IExpGroup
+    public class MediumFastExpGroup : IExpGroup
     {
         public int ExpOf(int lvl)
         {
@@ -37,14 +37,14 @@ namespace EscuelaIT.TDD.Week.Runtime
         }
     }
     
-    class MediumSlowExpGroup : IExpGroup
+    public class MediumSlowExpGroup : IExpGroup
     {
         public int ExpOf(int lvl)
         {
-            return (int)((6 / 5f) * lvl * lvl * lvl
+            return (int)(6 / 5f) * lvl * lvl * lvl
                 - 15 * lvl * lvl
                 + 100 * lvl
-                - 140);
+                - 140;
         }
     }
 }
